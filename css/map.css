@@ -1,0 +1,12 @@
+#mapid {
+    width: 800px;
+    height: 600px;
+  }
+  
+  .city-marker {
+    background-color: red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+  
