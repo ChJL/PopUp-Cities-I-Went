@@ -3,27 +3,27 @@
 var cityIcon = L.icon({
 	iconUrl: 'images/marker/solid-blue.png',
 	shadowUrl: 'leaf-shadow.png',
-	iconSize:     [20, 20], // size of the icon
+	iconSize:     [35, 35], // size of the icon
 });
 
 var townIcon = L.icon({
 	iconUrl: 'images/marker/orange-pin.png',
-	iconSize:     [25, 25], // size of the icon
+	iconSize:     [35, 35], // size of the icon
 });
 
 var mountIcon = L.icon({
 	iconUrl: 'images/marker/mountains-64.png',
-	iconSize:     [17, 17], // size of the icon
+	iconSize:     [25, 25], // size of the icon
 });
 
 var coastIcon = L.icon({
 	iconUrl: 'images/marker/wave.png',
-	iconSize:     [17, 17], // size of the icon
+	iconSize:     [25, 25], // size of the icon
 });
 
 var attractIcon = L.icon({
 	iconUrl: 'images/marker/heartin.png',
-	iconSize:     [25, 25], // size of the icon
+	iconSize:     [30, 30], // size of the icon
 });
 
 var mapOptions = {
