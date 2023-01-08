@@ -1,6 +1,6 @@
 // var map = L.map('mapid').setView([51.505, -0.09], 13);
-
 var cityIcon = L.icon({
+
 	iconUrl: 'images/marker/solid-blue.png',
 	shadowUrl: 'leaf-shadow.png',
 	iconSize:     [35, 35], // size of the icon
@@ -17,7 +17,7 @@ var mountIcon = L.icon({
 });
 
 var coastIcon = L.icon({
-	iconUrl: 'images/marker/wave.png',
+	iconUrl: 'images/marker/sea.png',
 	iconSize:     [25, 25], // size of the icon
 });
 
@@ -26,9 +26,24 @@ var attractIcon = L.icon({
 	iconSize:     [30, 30], // size of the icon
 });
 
+var otherIcon = L.icon({
+	iconUrl: 'images/marker/purple-pin.png',
+	iconSize:     [30, 30], // size of the icon
+});
+
+var skiIcon = L.icon({
+	iconUrl: 'images/marker/ski-pin-blue.png',
+	iconSize:     [35, 35], // size of the icon
+});
+
+var snowboardIcon = L.icon({
+	iconUrl: 'images/marker/snowboarder.png',
+	iconSize:     [30, 30], // size of the icon
+});
+
 var mapOptions = {
-    center: [54.54, 2],
-    zoom: 3.50
+    center: [52, 5],
+    zoom: 5
   }
 var mymap = L.map('mapid', mapOptions);
 
@@ -96,8 +111,13 @@ const cities = [
     // Poland
     {filename: "Krakow", placename:"Krakow", lat: 50.061940, lng: 19.938400},
     {filename: "Warsaw", placename:"Warsaw", lat: 52.229690, lng: 21.012230},
-
-    // {name: "Tokyo", lat: 35.6895, lng: 139.6917},
+    // Spain
+    {filename: "Seville", placename:"Seville", lat: 37.389092, lng: -5.984459},
+    {filename: "Cordoba", placename:"Cordoba", lat: 37.884991, lng: -4.779383},
+    {filename: "Granada", placename:"Granada", lat: 37.177336, lng: -3.598557},
+    {filename: "Malaga", placename:"Malaga", lat: 36.721261, lng: -4.421266},
+    // Japan
+    {filename: "Tokyo", placename:"Tokyo", lat: 35.6895, lng: 139.6917},
     // {name: "Paris", lat: 48.8566, lng: 2.3522},
     // {name: "New York", lat: 40.7128, lng: -74.0060},
     // {filename: "", placename:"", lat: , lng: },
@@ -120,24 +140,45 @@ const towns = [
     {filename: "KastrupSobad", placename:"Kastrup Søbad", lat: 55.645410, lng:  12.649408},
     // Spain
     {filename: "Frigiliana", placename:"Frigiliana", lat: 36.78747, lng:-3.89441},
+    {filename: "Nerja", placename:"Nerja", lat: 36.750637, lng: -3.876716},
+    {filename: "Ronda", placename:"Ronda", lat: 36.746178, lng: -5.167944},
     // Poland
     {filename: "Zakopane", placename:"Zakopane", lat: 49.299180, lng: 19.946150},
     // {filename: "", placename:"", lat: , lng: },
-
   ];
 
 const mountains = [
     {filename: "MtFuju", placename:"Mt. Fuji", lat: 35.363075, lng: 138.73033},
-    {filename: "SevenSistersCliff", placename:"Seven Sisters Cliff", lat: 50.747954, lng: 0.190148}
+    {filename: "SevenSistersCliff", placename:"Seven Sisters Cliff", lat: 50.747954, lng: 0.190148},
+    {filename: "KasprowyWierch", placename:"Kasprowy Wierch", lat: 49.239450, lng: 19.988780}
   ];
 
 const coasts = [
   {filename: "DurdleDoor", placename:"Durdle Door", lat: 50.621103, lng: -2.276568},
-  {filename: "JurassicCoast", placename:"Jurassic Coast", lat: 50.622026, lng: -2.274362}
+  {filename: "JurassicCoast", placename:"Jurassic Coast", lat: 50.622026, lng: -2.274362},
+  {filename: "Bluecave", placename:"Blue Cave", lat: 26.485870, lng: 127.848250},
   ];
+
 const attractions = [
   {filename: "Stonehenge", placename:"Stonehenge", lat: 51.178884, lng: -1.826214},
+  {filename: "KsIto", placename:"Ito Onsen", lat: 34.971847,lng: 139.097305},
   ];
+
+const others = [
+  {filename: "Auschwitz-Birkenau", placename:"Auschwitz-Birkenau", lat: 50.033530, lng: 19.209361},
+    ];
+
+const skis = [
+  {filename: "BT", placename:"Białka Tatrzańska", lat: 49.368400, lng: 20.061050},
+  {filename: "Patscherkofel", placename:"Patscherkofel", lat: 47.188760, lng: 11.446790},
+  {filename: "AxamerLizum", placename:"Axamer Lizum", lat: 47.203640, lng: 11.488040},
+  {filename: "Nordkette", placename:"Nordkette", lat: 47.286640, lng: 11.404910},
+];
+
+const snowboards = [
+  {filename: "GrandeRochette", placename:"Grande Rochette", lat: 45.569939, lng: 6.731433},
+  {filename: "LaPlagne1800", placename:"La Plagne 1800", lat: 45.569450, lng: 6.736930},
+    ];
 
 cities.forEach((city) => {
     const popupContent = document.createElement("div")
@@ -171,5 +212,26 @@ attractions.forEach((attract) => {
   const popupContent = document.createElement("div")
   popupContent.innerHTML = "<h3>" + attract.placename +"</h3>" + "<img src='" + "images/attractions/"+ attract.filename + ".jpg "+ "'>"
   const marker = L.marker([attract.lat, attract.lng],{icon: attractIcon}).bindPopup(popupContent,
+      { maxWidth: "auto" }).addTo(mymap);
+})
+
+others.forEach((other) => {
+  const popupContent = document.createElement("div")
+  popupContent.innerHTML = "<h3>" + other.placename +"</h3>" + "<img src='" + "images/others/"+ other.filename + ".jpg "+ "'>"
+  const marker = L.marker([other.lat, other.lng],{icon: otherIcon}).bindPopup(popupContent,
+      { maxWidth: "auto" }).addTo(mymap);
+})
+
+skis.forEach((ski) => {
+  const popupContent = document.createElement("div")
+  popupContent.innerHTML = "<h3>" + ski.placename +"</h3>" + "<img src='" + "images/skis/"+ ski.filename + ".jpg "+ "'>"
+  const marker = L.marker([ski.lat, ski.lng],{icon: skiIcon}).bindPopup(popupContent,
+      { maxWidth: "auto" }).addTo(mymap);
+})
+
+snowboards.forEach((snowboard) => {
+  const popupContent = document.createElement("div")
+  popupContent.innerHTML = "<h3>" + snowboard.placename +"</h3>" + "<img src='" + "images/snowboards/"+ snowboard.filename + ".jpg "+ "'>"
+  const marker = L.marker([snowboard.lat, snowboard.lng],{icon: snowboardIcon}).bindPopup(popupContent,
       { maxWidth: "auto" }).addTo(mymap);
 })
