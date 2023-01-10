@@ -19,18 +19,18 @@ Main files of this reposisory is structured as follows:
      |--- images/         
      |      |
      |      |
-     |      |--- marker/     
+     |      |--- marker/    Includes marker icons images on maps
      |      |
-     |      |--- cities/
+     |      |--- cities/    For the main cities' images I've been    
      |		|
-     |		|--- towns/
+     |		|--- towns/     The same one for towns
      |
      |
      |--- js/
-     |		|
-     |		|-- map.js
+     |	|
+     |	|-- map.js/         Main info could be exited here, including lat and lon
      |
      |
      |--- css/
      |
-     |--- index.html
+     |--- index.html        This html is just a simple div for map
