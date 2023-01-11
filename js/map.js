@@ -154,7 +154,9 @@ const towns = [
 const mountains = [
     {filename: "MtFuju", placename:"Mt. Fuji", lat: 35.363075, lng: 138.73033},
     {filename: "SevenSistersCliff", placename:"Seven Sisters Cliff", lat: 50.747954, lng: 0.190148},
-    {filename: "KasprowyWierch", placename:"Kasprowy Wierch", lat: 49.239450, lng: 19.988780}
+    {filename: "KasprowyWierch", placename:"Kasprowy Wierch", lat: 49.239450, lng: 19.988780},
+    {filename: "Syue", placename:"Syue Mountain", lat: 24.383401, lng: 121.231754},
+
   ];
 
 const coasts = [
