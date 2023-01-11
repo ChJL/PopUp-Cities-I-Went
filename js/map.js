@@ -62,6 +62,7 @@ const cities = [
     {filename: "Amsterdam", placename: "Amsterdam", lat: 52.370216, lng: 4.895168},
     {filename: "Utrecht", placename: "Utrecht", lat: 52.090736, lng: 5.121420},
     {filename: "Rotterdam", placename: "Rotterdam", lat: 51.924419, lng: 4.477733},
+    {filename: "Maastricht", placename: "Maastricht", lat: 50.8500, lng: 5.6833},
     // Germany
     {filename: "Frankfurt", placename: "Frankfurt", lat: 50.110924, lng: 8.682127},
     {filename: "Cologne", placename: "Cologne", lat: 50.937531, lng: 6.960279},
@@ -127,11 +128,14 @@ const towns = [
     // Netherlands
     {filename: "Giethoorn", placename:"Giethoorn", lat: 52.739700, lng: 6.077420},
     {filename: "AmsterdamBos", placename:"Het Amsterdam Bos", lat: 52.315428, lng:  4.831741},
+    {filename: "DeBiesbosch", placename:"Nationaal Park De Biesbosch", lat: 51.750181, lng: 4.763034},
     // Germany
     //UK
     {filename: "Saltburn", placename:"Saltburn", lat: 54.581539, lng: -0.978370},
     {filename: "Whitby", placename:"Whitby", lat: 54.4877, lng: -0.6150},
     {filename: "Windsor", placename:"Windsor", lat: 51.484250, lng: -0.604440},
+    {filename: "Darlington", placename: "Darlington", lat: 54.5236, lng: -1.5449},
+    {filename: "Southampton", placename: "Southampton", lat: 50.9050, lng: -1.4043},
     // Switzerland
     {filename: "Grindelwald", placename:"Grindelwald", lat: 46.624329, lng: 8.034030},
     {filename: "Interlaken", placename:"Interlaken", lat: 46.686348, lng: 7.863205},
@@ -157,11 +161,14 @@ const coasts = [
   {filename: "DurdleDoor", placename:"Durdle Door", lat: 50.621103, lng: -2.276568},
   {filename: "JurassicCoast", placename:"Jurassic Coast", lat: 50.622026, lng: -2.274362},
   {filename: "Bluecave", placename:"Blue Cave", lat: 26.485870, lng: 127.848250},
+  {filename: "NordTexel", placename:"Lighthouse Texel", lat: 53.182108, lng: 4.853049},
+  {filename: "Bournemouth", placename: "Bournemouth", lat: 50.7184, lng: -1.8784},
   ];
 
 const attractions = [
   {filename: "Stonehenge", placename:"Stonehenge", lat: 51.178884, lng: -1.826214},
   {filename: "KsIto", placename:"Ito Onsen", lat: 34.971847,lng: 139.097305},
+  {filename: "Lisse", placename: "Lisse", lat: 52.2667, lng: 4.5500},
   ];
 
 const others = [
