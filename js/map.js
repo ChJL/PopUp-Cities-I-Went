@@ -72,6 +72,7 @@ const cities = [
     {filename: "Heidelberg", placename:"Heidelberg", lat: 49.407679, lng: 8.690788},
     {filename: "Nuremberg", placename:"Nuremberg", lat: 49.452030, lng: 11.076750},
     {filename: "Hannover", placename:"Hannover", lat: 52.375892, lng: 9.732010},
+    {filename: "Berlin", placename:"Berlin", lat: 52.516315, lng: 13.378079},
     // UK
     {filename: "London", placename: "London", lat: 51.5074, lng: -0.1278},
     {filename: "York", placename:"York", lat: 53.958332, lng: -1.080278},
