@@ -186,8 +186,8 @@ const skis = [
 ];
 
 const snowboards = [
-  {filename: "GrandeRochette", placename:"Grande Rochette", lat: 45.569939, lng: 6.731433},
-  {filename: "LaPlagne1800", placename:"La Plagne 1800", lat: 45.569450, lng: 6.736930},
+  {filename: "GrandeRochette", placename:"Grande Rochette", lat: 45.491606, lng: 6.684505},
+  {filename: "LaPlagne1800", placename:"La Plagne 1800", lat: 45.512423, lng: 6.677257},
     ];
 
 cities.forEach((city) => {
