@@ -1,0 +1,81 @@
+filename, placename, lat, lng,country,category,been
+Amsterdam, Amsterdam,52.370216,4.895168,Netherlands,city,y
+Utrecht, Utrecht,52.090736,5.12142,Netherlands,city,y
+Rotterdam, Rotterdam,51.924419,4.477733,Netherlands,city,y
+Maastricht, Maastricht,50.85,5.6833,Netherlands,city,y
+Frankfurt, Frankfurt,50.110924,8.682127,Germany,city,y
+Cologne, Cologne,50.937531,6.960279,Germany,city,y
+Darmstadt, Darmstadt,49.8851869,8.6736295,Germany,city,y
+Dusseldorf, Dusseldorf,51.2217,6.77616,Germany,city,y
+Hamburg, Hamburg,53.55,9.99361,Germany,city,y
+Heidelberg, Heidelberg,49.407679,8.690788,Germany,city,y
+Nuremberg, Nuremberg,49.45203,11.07675,Germany,city,y
+Hannover, Hannover,52.375892,9.73201,Germany,city,y
+Berlin, Berlin,52.516315,13.378079,Germany,city,y
+London, London,51.5074,-0.1278,United Kingdom,city,y
+York, York,53.958332,-1.080278,United Kingdom,city,y
+Bath, Bath,51.380001,-2.35,United Kingdom,city,y
+Brighton, Brighton,50.8288,-0.13915,United Kingdom,city,y
+Zurich, Zurich,47.376888,8.541694,Switzerland,city,y
+Luzern, Luzern,47.04554,8.30801,Switzerland,city,y
+Bern, Bern,46.9482713,7.4514512,Switzerland,city,y
+Basel, Basel,47.5581077,7.5878261,Switzerland,city,y
+Tallinn, Tallinn,59.436755,24.74522,Estonia,city,y
+Geneva, Geneva,46.204391,6.143158,Switzerland,city,y
+Bratislava, Bratislava,48.148598,17.107748,Slovakia,city,y
+Brugge, Brugge,51.20892,3.22424,Belgium,city,y
+Brussel, Brussel,50.850346,4.351721,Belgium,city,y
+Gent, Gent,51.0543422,3.7174243,Belgium,city,y
+Budapest, Budapest,47.497913,19.040236,Hungary,city,y
+Milan, Milan,45.464664,9.18854,Italy,city,y
+Rome, Rome,41.902782,12.496366,Italy,city,y
+Vatican, Vatican,41.904755,12.454628,Vatican,city,y
+Venice, Venice,45.438759,12.327145,Italy,city,y
+Prague, Prague,50.073658,14.41854,Czech,city,y
+Vienna, Vienna,48.210033,16.363449,Austria,city,y
+Innsbruck, Innsbruck,47.26815,11.39459,Austria,city,y
+Copenhagen, Copenhagen,55.6755,12.57,Denmak,city,y
+Helsinki, Helsinki,60.16952,24.93545,Finland,city,y
+Stockholm, Stockholm,59.329323,18.068581,Sweden,city,y
+Krakow, Krakow,50.06194,19.9384,Poland,city,y
+Warsaw, Warsaw,52.22969,21.01223,Poland,city,y
+Seville, Seville,37.389092,-5.984459,Spain,city,y
+Cordoba, Cordoba,37.884991,-4.779383,Spain,city,y
+Granada, Granada,37.177336,-3.598557,Spain,city,y
+Malaga, Malaga,36.721261,-4.421266,Spain,city,y
+Tokyo, Tokyo,35.6895,139.6917,Japan,city,y
+Giethoorn, Giethoorn,52.7397,6.07742,Netherlands,town,y
+AmsterdamBos, Het Amsterdam Bos,52.315428,4.831741,Netherlands,town,y
+DeBiesbosch, Nationaal Park De Biesbosch,51.750181,4.763034,Netherlands,town,y
+Saltburn, Saltburn,54.581539,-0.97837,United Kingdom,town,y
+Whitby, Whitby,54.4877,-0.615,United Kingdom,town,y
+Windsor, Windsor,51.48425,-0.60444,United Kingdom,town,y
+Darlington, Darlington,54.5236,-1.5449,United Kingdom,town,y
+Southampton, Southampton,50.905,-1.4043,United Kingdom,town,y
+Grindelwald, Grindelwald,46.624329,8.03403,Switzerland,town,y
+Interlaken, Interlaken,46.686348,7.863205,Switzerland,town,y
+Lauterbrunnen, Lauterbrunnen,46.593421,7.909125,Switzerland,town,y
+KastrupSobad, Kastrup S_bad,55.64541,12.649408,Denmak,town,y
+Frigiliana, Frigiliana,36.78747,-3.89441,Spain,town,y
+Nerja, Nerja,36.750637,-3.876716,Spain,town,y
+Ronda, Ronda,36.746178,-5.167944,Spain,town,y
+Zakopane, Zakopane,49.29918,19.94615,Poland,town,y
+MtFuju, Mt. Fuji,35.363075,138.73033,Japan,mountain,y
+SevenSistersCliff, Seven Sisters Cliff,50.747954,0.190148,United Kingdom,mountain,y
+KasprowyWierch, Kasprowy Wierch,49.23945,19.98878,Poland,mountain,y
+Syue, Syue Mountain,24.383401,121.231754,Poland,mountain,y
+DurdleDoor, Durdle Door,50.621103,-2.276568,United Kingdom,coast,y
+JurassicCoast, Jurassic Coast,50.622026,-2.274362,United Kingdom,coast,y
+Bluecave, Blue Cave,26.48587,127.84825,Japan,coast,y
+NordTexel, Lighthouse Texel,53.182108,4.853049,Netherlands,coast,y
+Bournemouth, Bournemouth,50.7184,-1.8784,United Kingdom,coast,y
+Stonehenge, Stonehenge,51.178884,-1.826214,United Kingdom,attraction,y
+KsIto, Ito Onsen,34.971847,139.097305,Japan,attraction,y
+Lisse, Lisse,52.2667,4.55,Netherlands,attraction,y
+Auschwitz-Birkenau, Auschwitz-Birkenau,50.03353,19.209361,Poland,other,y
+BT, Biaka Tatrzaska,49.3684,20.06105,Poland,ski,y
+Patscherkofel, Patscherkofel,47.18876,11.44679,Austria,ski,y
+AxamerLizum, Axamer Lizum,47.20364,11.48804,Austria,ski,y
+Nordkette, Nordkette,47.28664,11.40491,Austria,ski,y
+GrandeRochette, Grande Rochette,45.491606,6.684505,France,sb,y
+LaPlagne1800, La Plagne 1800,45.512423,6.677257,France,sb,y
