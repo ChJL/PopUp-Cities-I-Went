@@ -88,25 +88,6 @@ function parseData(url, callBack) {
 }
 
 parseData("data/default.csv", showMarker);
-
-// Add legends
-var legend = L.control({position: 'bottomleft'});
-legend.onAdd = function (map) {
-    var div = L.DomUtil.create('div', 'info legend');
-    div.innerHTML +=  "<p>"+' '+"</p>"
-    div.innerHTML +=  '<img src="images/marker/solid-blue.png">' + "<h4>"+'City'+"</h4>"
-    div.innerHTML +=  '<img src="images/marker/orange-pin.png">'  + "<h4>"+'Town'+"</h4>"
-    div.innerHTML +=  '<img src="images/marker/mountains-64.png">'  + "<h4>"+'Mountain'+"</h4>"
-    div.innerHTML +=  '<img src="images/marker/sea.png">'  + "<h4>"+'Coast'+"</h4>"
-    div.innerHTML +=  '<img src="images/marker/heartin.png">'  + "<h4>"+'Attraction'+"</h4>"
-    div.innerHTML +=  '<img src="images/marker/ski-pin-blue.png">'  + "<h4>"+'Ski'+"</h4>"
-    div.innerHTML +=  '<img src="images/marker/snowboarder.png">'  + "<h4>"+'Snowboard'+"</h4>"
-    
-
-    return div;
-};
-legend.addTo(mymap);
-
 // Add search bar
 var searchBar = L.control({position: 'topleft'});
 searchBar.onAdd = function (map) {
@@ -128,3 +109,22 @@ function search_item() {
     })
   });
 }
+
+// Add legends
+var legend = L.control({position: 'topleft'});
+legend.onAdd = function (map) {
+    var div = L.DomUtil.create('div', 'info legend');
+    div.innerHTML +=  "<p>"+' '+"</p>"
+    div.innerHTML +=  '<img src="images/marker/solid-blue.png">' + "<h4>"+'City'+"</h4>"
+    div.innerHTML +=  '<img src="images/marker/orange-pin.png">'  + "<h4>"+'Town'+"</h4>"
+    div.innerHTML +=  '<img src="images/marker/mountains-64.png">'  + "<h4>"+'Mountain'+"</h4>"
+    div.innerHTML +=  '<img src="images/marker/sea.png">'  + "<h4>"+'Coast'+"</h4>"
+    div.innerHTML +=  '<img src="images/marker/heartin.png">'  + "<h4>"+'Attraction'+"</h4>"
+    div.innerHTML +=  '<img src="images/marker/ski-pin-blue.png">'  + "<h4>"+'Ski'+"</h4>"
+    div.innerHTML +=  '<img src="images/marker/snowboarder.png">'  + "<h4>"+'Snowboard'+"</h4>"
+    
+
+    return div;
+};
+legend.addTo(mymap);
+
