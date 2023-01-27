@@ -93,7 +93,7 @@ parseData("data/default.csv", showMarker);
 var legend = L.control({position: 'bottomleft'});
 legend.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend');
-    div.innerHTML +=  "<h4>"+'Legend'+"</h4>"
+    div.innerHTML +=  "<p>"+' '+"</p>"
     div.innerHTML +=  '<img src="images/marker/solid-blue.png">' + "<h4>"+'City'+"</h4>"
     div.innerHTML +=  '<img src="images/marker/orange-pin.png">'  + "<h4>"+'Town'+"</h4>"
     div.innerHTML +=  '<img src="images/marker/mountains-64.png">'  + "<h4>"+'Mountain'+"</h4>"
