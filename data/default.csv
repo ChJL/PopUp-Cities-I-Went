@@ -46,6 +46,8 @@ Malaga,Malaga,36.721261,-4.421266,Spain,city,y
 Tokyo,Tokyo,35.6895,139.6917,Japan,city,y
 Paris,Paris,48.864716,2.349014,France,city,y
 Dublin,Dublin,53.345628,-6.262862,Ireland,city,y
+Plovdiv,Plovdiv,42.151251,24.752209,Bulgaria,city,y
+Sofia,Sofia,42.695873,23.332845,Bulgaria,city,y
 Giethoorn,Giethoorn,52.7397,6.07742,Netherlands,town,y
 AmsterdamBos,Het Amsterdam Bos,52.315428,4.831741,Netherlands,town,y
 DeBiesbosch,Nationaal Park DeBiesbosch,51.750181,4.763034,Netherlands,town,y
@@ -63,6 +65,7 @@ Nerja,Nerja,36.750637,-3.876716,Spain,town,y
 Ronda,Ronda,36.746178,-5.167944,Spain,town,y
 Zakopane,Zakopane,49.29918,19.94615,Poland,town,y
 Versailles,Versailles Palace,48.80478,2.120033,France,town,y
+Banya,Banya,41.880218,23.529092,Bulgaria,town,y
 Howth,Howth Cliff Walk,53.374974,-6.049288,Ireland,mountain,y
 Killiney,Killiney Hill,53.265548,-6.111822,Ireland,mountain,y
 MtFuju,Mt.Fuji,35.363075,138.73033,Japan,mountain,y
@@ -79,6 +82,7 @@ Stonehenge,Stonehenge,51.178884,-1.826214,United Kingdom,attraction,y
 KsIto,Ito Onsen,34.971847,139.097305,Japan,attraction,y
 Lisse,Lisse,52.2667,4.55,Netherlands,attraction,y
 MontSaint-Michel,Mont Saint-Michel,48.636004,-1.511085,France,attraction,y
+RilaMonastery,Rila Monastery,42.13346,23.340203,Bulgaria,attraction,y
 Auschwitz-Birkenau,Auschwitz-Birkenau,50.03353,19.209361,Poland,other,y
 BT,Biaka Tatrzaska,49.3684,20.06105,Poland,ski,y
 Patscherkofel,Patscherkofel,47.18876,11.44679,Austria,ski,y
@@ -86,3 +90,6 @@ AxamerLizum,Axamer Lizum,47.20364,11.48804,Austria,ski,y
 Nordkette,Nordkette,47.28664,11.40491,Austria,ski,y
 GrandeRochette,Grande Rochette,45.491606,6.684505,France,sb,y
 LaPlagne1800,La Plagne 1800,45.512423,6.677257,France,sb,y
+Bansko,Bansko,41.82739,23.482773,Bulgaria,sb,y
+Todorka,Todorka,41.757901,23.435364,Bulgaria,sb,y
+Plato,Plato Ski Slope,41.76054,23.446597,Bulgaria,sb,y
