@@ -49,6 +49,8 @@ Dublin,Dublin,53.345628,-6.262862,Ireland,city,y
 Plovdiv,Plovdiv,42.151251,24.752209,Bulgaria,city,y
 Sofia,Sofia,42.695873,23.332845,Bulgaria,city,y
 Nijmegen,Nijmegen,51.845192,5.8664848,Netherlands,city,y
+DenBosch,Den Bosch,51.690708,5.294517,Netherlands,city,y
+Leiden,Leiden,52.15895,4.492396,Netherlands,city,y
 Giethoorn,Giethoorn,52.7397,6.07742,Netherlands,town,y
 AmsterdamBos,Het Amsterdam Bos,52.315428,4.831741,Netherlands,town,y
 DeBiesbosch,Nationaal Park DeBiesbosch,51.750181,4.763034,Netherlands,town,y
@@ -68,6 +70,7 @@ Zakopane,Zakopane,49.29918,19.94615,Poland,town,y
 Versailles,Versailles Palace,48.80478,2.120033,France,town,y
 Banya,Banya,41.880218,23.529092,Bulgaria,town,y
 Rhenen,Rhenen,51.959354,5.591441,Netherlands,town,y
+Hoorn,Hoorn,52.633805,5.056184,Netherlands,town,y
 Howth,Howth Cliff Walk,53.374974,-6.049288,Ireland,mountain,y
 Killiney,Killiney Hill,53.265548,-6.111822,Ireland,mountain,y
 MtFuju,Mt.Fuji,35.363075,138.73033,Japan,mountain,y
@@ -85,6 +88,8 @@ KsIto,Ito Onsen,34.971847,139.097305,Japan,attraction,y
 Lisse,Lisse,52.2667,4.55,Netherlands,attraction,y
 MontSaint-Michel,Mont Saint-Michel,48.636004,-1.511085,France,attraction,y
 RilaMonastery,Rila Monastery,42.13346,23.340203,Bulgaria,attraction,y
+Kinderdijk,Kinderdijk,51.887462,4.638011,Netherlands,attraction,y
+Burano,Burano,45.486734,12.417873,Italy,attraction,y
 Auschwitz-Birkenau,Auschwitz-Birkenau,50.03353,19.209361,Poland,other,y
 BT,Biaka Tatrzaska,49.3684,20.06105,Poland,ski,y
 Patscherkofel,Patscherkofel,47.18876,11.44679,Austria,ski,y
