@@ -42,8 +42,8 @@ var sbIcon = L.icon({
 });
 
 var mapOptions = {
-    center: [52, 5],
-    zoom: 5
+    center: [35, 1],
+    zoom: 3.2
   }
 var mymap = L.map('mapid', mapOptions);
 
