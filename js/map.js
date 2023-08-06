@@ -92,7 +92,7 @@ parseData("data/default.csv", showMarker);
 var searchBar = L.control({position: 'topleft'});
 searchBar.onAdd = function (map) {
   var div = L.DomUtil.create('div', 'searchbar');
-  div.innerHTML += '<input id="searchbar" onkeyup="search_item()" type="text" name="search" placeholder="Search Cities">'
+  div.innerHTML += '<input id="searchbar" onkeyup="search_item()" type="text" name="search" placeholder="Search City ex: Amsterdam ">'
   return div;
 };
 searchBar.addTo(mymap)

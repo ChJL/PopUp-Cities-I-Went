@@ -55,6 +55,8 @@ Luxembourg,Luxembourg,49.608028,6.127495,Luxembourg,city,y
 Bucharest,Bucharest,44.432475,26.100006,Romania,city,y
 Bremen,Bremen,53.0762,8.8075,Germany,city,y
 Stavanger,Stavanger,58.97048,5.730341,Norway,city,y
+Freiburg,Freiburg im Breisgau,47.993658,7.848866,Germany,city,y
+Stuttgart,Stuttgart,48.7884807,9.2326576,Germany,city,y
 Giethoorn,Giethoorn,52.7397,6.07742,Netherlands,town,y
 AmsterdamBos,Het Amsterdam Bos,52.315428,4.831741,Netherlands,town,y
 DeBiesbosch,Nationaal Park DeBiesbosch,51.750181,4.763034,Netherlands,town,y
@@ -79,6 +81,9 @@ Strasbourg,Strasbourg,48.581376,7.751182,France,town,y
 Colmar,Colmar,48.076649,7.358264,France,town,y
 Mulhouse,Mulhouse,47.746894,7.338718,France,town,y
 Brasov,Brasov,45.642885,25.586471,Romania,town,y
+Badenbaden,Baden-Baden,48.763769,8.24089,Germany,town,y
+Hausach,Hausach,48.283004,8.167706,Germany,town,y
+Schramberg,Schramberg,48.227185,8.384569,Germany,town,y
 Howth,Howth Cliff Walk,53.374974,-6.049288,Ireland,mountain,y
 Killiney,Killiney Hill,53.265548,-6.111822,Ireland,mountain,y
 MtFuju,Mt.Fuji,35.363075,138.73033,Japan,mountain,y
@@ -87,11 +92,17 @@ KasprowyWierch,Kasprowy Wierch,49.23945,19.98878,Poland,mountain,y
 Syue,Syue Mountain,24.383401,121.231754,Taiwan,mountain,y
 Preikestolen,Preikestolen,58.986065,6.189782,Norway,mountain,y
 Kjerag,Kjerag,59.041266,6.630289,Norway,mountain,y
+FeldbergTurm,Feldberg Turm,47.864528,8.02194,Germany,mountain,y
+RuineHochburg,Ruine Hochburg ,48.117079,7.900549,Germany,mountain,y
+TribergWaterfall,Triberg Waterfall,48.1268441,8.2289293,Germany,mountain,y
+Triberg,Triberg,48.128641,8.230478,Germany,town,y
 DurdleDoor,Durdle Door,50.621103,-2.276568,United Kingdom,coast,y
 JurassicCoast,Jurassic Coast,50.622026,-2.274362,United Kingdom,coast,y
 Bluecave,Blue Cave,26.48587,127.84825,Japan,coast,y
 NordTexel,Lighthouse Texel,53.182108,4.853049,Netherlands,coast,y
 Bournemouth,Bournemouth,50.7184,-1.8784,United Kingdom,coast,y
+Mummelsee,Mummelsee,48.597568,8.200805,Germany,coast,y
+Titisee,Titisee,47.8987703,8.1524791,Germany,coast,y
 PhonixPark,Phonix Park,53.355899,-6.330144,Ireland,attraction,y
 Stonehenge,Stonehenge,51.178884,-1.826214,United Kingdom,attraction,y
 KsIto,Ito Onsen,34.971847,139.097305,Japan,attraction,y
@@ -102,6 +113,10 @@ Kinderdijk,Kinderdijk,51.887462,4.638011,Netherlands,attraction,y
 Burano,Burano,45.486734,12.417873,Italy,attraction,y
 PelesCastle,Peles Castle,45.359696,25.542641,Romania,attraction,y
 BranCastle,Bran Castle,45.514804,25.366981,Romania,attraction,y
+BismarckDenkmal,"Bismarck Denkmal, Feldberg",47.866128,8.025316,Germany,attraction,y
+Blackforestline,Blackforestline Hangebrucke,47.844005,7.93616,Germany,attraction,y
+BurgruineStaufen,"Burgruine Staufen, Burgweg",47.886551,7.731729,Germany,attraction,y
+CuckooClock,World's Largest Cuckoo Clock,48.14772,8.240987,Germany,attraction,y
 Auschwitz-Birkenau,Auschwitz-Birkenau,50.03353,19.209361,Poland,other,y
 BT,Biaka Tatrzaska,49.3684,20.06105,Poland,ski,y
 Patscherkofel,Patscherkofel,47.18876,11.44679,Austria,ski,y
