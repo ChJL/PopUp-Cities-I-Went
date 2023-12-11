@@ -57,6 +57,12 @@ Bremen,Bremen,53.0762,8.8075,Germany,city,y
 Stavanger,Stavanger,58.97048,5.730341,Norway,city,y
 Freiburg,Freiburg im Breisgau,47.993658,7.848866,Germany,city,y
 Stuttgart,Stuttgart,48.7884807,9.2326576,Germany,city,y
+Ljubljana,Ljubljana,46.0528564,14.5033216,Slovenia,city,y
+Zagreb,Zagreb,45.8158446,15.97722021,Slovenia,city,y
+Athens,Athens,37.9824782,23.7383071,Greece,city,y
+Lisbon,Lisbonn,38.7149478,-9.1385192,Portugal,city,y
+Porto,Porto,41.140371,-8.6098859,Portugal,city,y
+Braga,Braga,41.5544243,-8.3771059,Portugal,city,y
 Giethoorn,Giethoorn,52.7397,6.07742,Netherlands,town,y
 AmsterdamBos,Het Amsterdam Bos,52.315428,4.831741,Netherlands,town,y
 DeBiesbosch,Nationaal Park DeBiesbosch,51.750181,4.763034,Netherlands,town,y
@@ -86,6 +92,7 @@ Hausach,Hausach,48.283004,8.167706,Germany,town,y
 Schramberg,Schramberg,48.227185,8.384569,Germany,town,y
 Lungern,Lungern,46.789612,8.158178,Switzerland,town,y
 Zermatt,Zermatt,46.025509,7.756185,Switzerland,town,y
+BledCastle,Bled Castle,46.3698575,14.0980708,Slovenia,town,y
 Howth,Howth Cliff Walk,53.374974,-6.049288,Ireland,mountain,y
 Killiney,Killiney Hill,53.265548,-6.111822,Ireland,mountain,y
 MtFuju,Mt.Fuji,35.363075,138.73033,Japan,mountain,y
@@ -110,6 +117,7 @@ Mummelsee,Mummelsee,48.597568,8.200805,Germany,coast,y
 Titisee,Titisee,47.8987703,8.1524791,Germany,coast,y
 Brienz,Brienz,46.753821,8.037051,Switzerland,coast,y
 Thun,Thun,46.6667457,7.828315,Switzerland,coast,y
+Bled,Bled,46.364627,14.091587,Slovenia,coast,y
 PhonixPark,Phonix Park,53.355899,-6.330144,Ireland,attraction,y
 Stonehenge,Stonehenge,51.178884,-1.826214,United Kingdom,attraction,y
 KsIto,Ito Onsen,34.971847,139.097305,Japan,attraction,y
@@ -162,3 +170,5 @@ YakiPoint,Grand Canyon (Yaki Point),36.058552,-112.082924,United States,mountain
 OohAahPoint,Grand Canyon (Ooh Aah Point),36.061383,-112.086986,United States,mountain,y
 PipeGreekVista,Grand Canyon (Pipe Greek Vista),36.047963,-112.092831,United States,mountain,y
 HorseshoeBend,Horseshoe Bend,36.8795,-111.51,United States,attraction,y
+Fira,Fira,36.4232628,25.4282559,Greece,attraction,y
+Oia,Oia,36.4660187,25.372967,Greece,attraction,y
