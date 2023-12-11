@@ -84,6 +84,8 @@ Brasov,Brasov,45.642885,25.586471,Romania,town,y
 Badenbaden,Baden-Baden,48.763769,8.24089,Germany,town,y
 Hausach,Hausach,48.283004,8.167706,Germany,town,y
 Schramberg,Schramberg,48.227185,8.384569,Germany,town,y
+Lungern,Lungern,46.789612,8.158178,Switzerland,town,y
+Zermatt,Zermatt,46.025509,7.756185,Switzerland,town,y
 Howth,Howth Cliff Walk,53.374974,-6.049288,Ireland,mountain,y
 Killiney,Killiney Hill,53.265548,-6.111822,Ireland,mountain,y
 MtFuju,Mt.Fuji,35.363075,138.73033,Japan,mountain,y
@@ -95,6 +97,9 @@ Kjerag,Kjerag,59.041266,6.630289,Norway,mountain,y
 FeldbergTurm,Feldberg Turm,47.864528,8.02194,Germany,mountain,y
 RuineHochburg,Ruine Hochburg ,48.117079,7.900549,Germany,mountain,y
 TribergWaterfall,Triberg Waterfall,48.1268441,8.2289293,Germany,mountain,y
+First,First,46.660531,8.053066,Switzerland,mountain,y
+Jungfraujoch,Jungfraujoch,46.547518,7.985448,Switzerland,mountain,y
+Riffelsee,Riffelsee,45.9832999,7.761384,Switzerland,mountain,y
 Triberg,Triberg,48.128641,8.230478,Germany,town,y
 DurdleDoor,Durdle Door,50.621103,-2.276568,United Kingdom,coast,y
 JurassicCoast,Jurassic Coast,50.622026,-2.274362,United Kingdom,coast,y
@@ -103,6 +108,8 @@ NordTexel,Lighthouse Texel,53.182108,4.853049,Netherlands,coast,y
 Bournemouth,Bournemouth,50.7184,-1.8784,United Kingdom,coast,y
 Mummelsee,Mummelsee,48.597568,8.200805,Germany,coast,y
 Titisee,Titisee,47.8987703,8.1524791,Germany,coast,y
+Brienz,Brienz,46.753821,8.037051,Switzerland,coast,y
+Thun,Thun,46.6667457,7.828315,Switzerland,coast,y
 PhonixPark,Phonix Park,53.355899,-6.330144,Ireland,attraction,y
 Stonehenge,Stonehenge,51.178884,-1.826214,United Kingdom,attraction,y
 KsIto,Ito Onsen,34.971847,139.097305,Japan,attraction,y
