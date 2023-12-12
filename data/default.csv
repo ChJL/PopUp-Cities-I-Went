@@ -1,174 +1,174 @@
-filename,placename,lat,lng,country,category,been
-Amsterdam,Amsterdam,52.370216,4.895168,Netherlands,city,y
-Utrecht,Utrecht,52.090736,5.12142,Netherlands,city,y
-Rotterdam,Rotterdam,51.924419,4.477733,Netherlands,city,y
-Maastricht,Maastricht,50.85,5.6833,Netherlands,city,y
-Frankfurt,Frankfurt,50.110924,8.682127,Germany,city,y
-Cologne,Cologne,50.937531,6.960279,Germany,city,y
-Darmstadt,Darmstadt,49.8851869,8.6736295,Germany,city,y
-Dusseldorf,Dusseldorf,51.2217,6.77616,Germany,city,y
-Hamburg,Hamburg,53.55,9.99361,Germany,city,y
-Heidelberg,Heidelberg,49.407679,8.690788,Germany,city,y
-Nuremberg,Nuremberg,49.45203,11.07675,Germany,city,y
-Hannover,Hannover,52.375892,9.73201,Germany,city,y
-Berlin,Berlin,52.516315,13.378079,Germany,city,y
-London,London,51.5074,-0.1278,United Kingdom,city,y
-York,York,53.958332,-1.080278,United Kingdom,city,y
-Bath,Bath,51.380001,-2.35,United Kingdom,city,y
-Brighton,Brighton,50.8288,-0.13915,United Kingdom,city,y
-Zurich,Zurich,47.376888,8.541694,Switzerland,city,y
-Luzern,Luzern,47.04554,8.30801,Switzerland,city,y
-Bern,Bern,46.9482713,7.4514512,Switzerland,city,y
-Basel,Basel,47.5581077,7.5878261,Switzerland,city,y
-Tallinn,Tallinn,59.436755,24.74522,Estonia,city,y
-Geneva,Geneva,46.204391,6.143158,Switzerland,city,y
-Bratislava,Bratislava,48.148598,17.107748,Slovakia,city,y
-Brugge,Brugge,51.20892,3.22424,Belgium,city,y
-Brussel,Brussel,50.850346,4.351721,Belgium,city,y
-Gent,Gent,51.0543422,3.7174243,Belgium,city,y
-Budapest,Budapest,47.497913,19.040236,Hungary,city,y
-Milan,Milan,45.464664,9.18854,Italy,city,y
-Rome,Rome,41.902782,12.496366,Italy,city,y
-Vatican,Vatican,41.904755,12.454628,Vatican,city,y
-Venice,Venice,45.438759,12.327145,Italy,city,y
-Prague,Prague,50.073658,14.41854,Czech,city,y
-Vienna,Vienna,48.210033,16.363449,Austria,city,y
-Innsbruck,Innsbruck,47.26815,11.39459,Austria,city,y
-Copenhagen,Copenhagen,55.6755,12.57,Denmak,city,y
-Helsinki,Helsinki,60.16952,24.93545,Finland,city,y
-Stockholm,Stockholm,59.329323,18.068581,Sweden,city,y
-Krakow,Krakow,50.06194,19.9384,Poland,city,y
-Warsaw,Warsaw,52.22969,21.01223,Poland,city,y
-Seville,Seville,37.389092,-5.984459,Spain,city,y
-Cordoba,Cordoba,37.884991,-4.779383,Spain,city,y
-Granada,Granada,37.177336,-3.598557,Spain,city,y
-Malaga,Malaga,36.721261,-4.421266,Spain,city,y
-Tokyo,Tokyo,35.6895,139.6917,Japan,city,y
-Paris,Paris,48.864716,2.349014,France,city,y
-Dublin,Dublin,53.345628,-6.262862,Ireland,city,y
-Plovdiv,Plovdiv,42.151251,24.752209,Bulgaria,city,y
-Sofia,Sofia,42.695873,23.332845,Bulgaria,city,y
-Nijmegen,Nijmegen,51.845192,5.8664848,Netherlands,city,y
-DenBosch,Den Bosch,51.690708,5.294517,Netherlands,city,y
-Leiden,Leiden,52.15895,4.492396,Netherlands,city,y
-Luxembourg,Luxembourg,49.608028,6.127495,Luxembourg,city,y
-Bucharest,Bucharest,44.432475,26.100006,Romania,city,y
-Bremen,Bremen,53.0762,8.8075,Germany,city,y
-Stavanger,Stavanger,58.97048,5.730341,Norway,city,y
-Freiburg,Freiburg im Breisgau,47.993658,7.848866,Germany,city,y
-Stuttgart,Stuttgart,48.7884807,9.2326576,Germany,city,y
-Ljubljana,Ljubljana,46.0528564,14.5033216,Slovenia,city,y
-Zagreb,Zagreb,45.8158446,15.97722021,Slovenia,city,y
-Athens,Athens,37.9824782,23.7383071,Greece,city,y
-Lisbon,Lisbonn,38.7149478,-9.1385192,Portugal,city,y
-Porto,Porto,41.140371,-8.6098859,Portugal,city,y
-Braga,Braga,41.5544243,-8.3771059,Portugal,city,y
-Giethoorn,Giethoorn,52.7397,6.07742,Netherlands,town,y
-AmsterdamBos,Het Amsterdam Bos,52.315428,4.831741,Netherlands,town,y
-DeBiesbosch,Nationaal Park DeBiesbosch,51.750181,4.763034,Netherlands,town,y
-Saltburn,Saltburn,54.581539,-0.97837,United Kingdom,town,y
-Whitby,Whitby,54.4877,-0.615,United Kingdom,town,y
-Windsor,Windsor,51.48425,-0.60444,United Kingdom,town,y
-Darlington,Darlington,54.5236,-1.5449,United Kingdom,town,y
-Southampton,Southampton,50.905,-1.4043,United Kingdom,town,y
-Grindelwald,Grindelwald,46.624329,8.03403,Switzerland,town,y
-Interlaken,Interlaken,46.686348,7.863205,Switzerland,town,y
-Lauterbrunnen,Lauterbrunnen,46.593421,7.909125,Switzerland,town,y
-KastrupSobad,Kastrup Sobad,55.64541,12.649408,Denmak,town,y
-Frigiliana,Frigiliana,36.78747,-3.89441,Spain,town,y
-Nerja,Nerja,36.750637,-3.876716,Spain,town,y
-Ronda,Ronda,36.746178,-5.167944,Spain,town,y
-Zakopane,Zakopane,49.29918,19.94615,Poland,town,y
-Versailles,Versailles Palace,48.80478,2.120033,France,town,y
-Banya,Banya,41.880218,23.529092,Bulgaria,town,y
-Rhenen,Rhenen,51.959354,5.591441,Netherlands,town,y
-Hoorn,Hoorn,52.633805,5.056184,Netherlands,town,y
-Strasbourg,Strasbourg,48.581376,7.751182,France,town,y
-Colmar,Colmar,48.076649,7.358264,France,town,y
-Mulhouse,Mulhouse,47.746894,7.338718,France,town,y
-Brasov,Brasov,45.642885,25.586471,Romania,town,y
-Badenbaden,Baden-Baden,48.763769,8.24089,Germany,town,y
-Hausach,Hausach,48.283004,8.167706,Germany,town,y
-Schramberg,Schramberg,48.227185,8.384569,Germany,town,y
-Lungern,Lungern,46.789612,8.158178,Switzerland,town,y
-Zermatt,Zermatt,46.025509,7.756185,Switzerland,town,y
-BledCastle,Bled Castle,46.3698575,14.0980708,Slovenia,town,y
-Howth,Howth Cliff Walk,53.374974,-6.049288,Ireland,mountain,y
-Killiney,Killiney Hill,53.265548,-6.111822,Ireland,mountain,y
-MtFuju,Mt.Fuji,35.363075,138.73033,Japan,mountain,y
-SevenSistersCliff,Seven Sisters Cliff,50.747954,0.190148,United Kingdom,mountain,y
-KasprowyWierch,Kasprowy Wierch,49.23945,19.98878,Poland,mountain,y
-Syue,Syue Mountain,24.383401,121.231754,Taiwan,mountain,y
-Preikestolen,Preikestolen,58.986065,6.189782,Norway,mountain,y
-Kjerag,Kjerag,59.041266,6.630289,Norway,mountain,y
-FeldbergTurm,Feldberg Turm,47.864528,8.02194,Germany,mountain,y
-RuineHochburg,Ruine Hochburg ,48.117079,7.900549,Germany,mountain,y
-TribergWaterfall,Triberg Waterfall,48.1268441,8.2289293,Germany,mountain,y
-First,First,46.660531,8.053066,Switzerland,mountain,y
-Jungfraujoch,Jungfraujoch,46.547518,7.985448,Switzerland,mountain,y
-Riffelsee,Riffelsee,45.9832999,7.761384,Switzerland,mountain,y
-Triberg,Triberg,48.128641,8.230478,Germany,town,y
-DurdleDoor,Durdle Door,50.621103,-2.276568,United Kingdom,coast,y
-JurassicCoast,Jurassic Coast,50.622026,-2.274362,United Kingdom,coast,y
-Bluecave,Blue Cave,26.48587,127.84825,Japan,coast,y
-NordTexel,Lighthouse Texel,53.182108,4.853049,Netherlands,coast,y
-Bournemouth,Bournemouth,50.7184,-1.8784,United Kingdom,coast,y
-Mummelsee,Mummelsee,48.597568,8.200805,Germany,coast,y
-Titisee,Titisee,47.8987703,8.1524791,Germany,coast,y
-Brienz,Brienz,46.753821,8.037051,Switzerland,coast,y
-Thun,Thun,46.6667457,7.828315,Switzerland,coast,y
-Bled,Bled,46.364627,14.091587,Slovenia,coast,y
-PhonixPark,Phonix Park,53.355899,-6.330144,Ireland,attraction,y
-Stonehenge,Stonehenge,51.178884,-1.826214,United Kingdom,attraction,y
-KsIto,Ito Onsen,34.971847,139.097305,Japan,attraction,y
-Lisse,Lisse,52.2667,4.55,Netherlands,attraction,y
-MontSaint-Michel,Mont Saint-Michel,48.636004,-1.511085,France,attraction,y
-RilaMonastery,Rila Monastery,42.13346,23.340203,Bulgaria,attraction,y
-Kinderdijk,Kinderdijk,51.887462,4.638011,Netherlands,attraction,y
-Burano,Burano,45.486734,12.417873,Italy,attraction,y
-PelesCastle,Peles Castle,45.359696,25.542641,Romania,attraction,y
-BranCastle,Bran Castle,45.514804,25.366981,Romania,attraction,y
-BismarckDenkmal,"Bismarck Denkmal, Feldberg",47.866128,8.025316,Germany,attraction,y
-Blackforestline,Blackforestline Hangebrucke,47.844005,7.93616,Germany,attraction,y
-BurgruineStaufen,"Burgruine Staufen, Burgweg",47.886551,7.731729,Germany,attraction,y
-CuckooClock,World's Largest Cuckoo Clock,48.14772,8.240987,Germany,attraction,y
-Auschwitz-Birkenau,Auschwitz-Birkenau,50.03353,19.209361,Poland,other,y
-BT,Biaka Tatrzaska,49.3684,20.06105,Poland,ski,y
-Patscherkofel,Patscherkofel,47.18876,11.44679,Austria,ski,y
-AxamerLizum,Axamer Lizum,47.20364,11.48804,Austria,ski,y
-Nordkette,Nordkette,47.28664,11.40491,Austria,ski,y
-GrandeRochette,Grande Rochette,45.491606,6.684505,France,sb,y
-LaPlagne1800,La Plagne 1800,45.512423,6.677257,France,sb,y
-Bansko,Bansko,41.82739,23.482773,Bulgaria,sb,y
-Todorka,Todorka,41.757901,23.435364,Bulgaria,sb,y
-Plato,Plato Ski Slope,41.76054,23.446597,Bulgaria,sb,y
-Stanford,Stanford,37.4275,-122.1697,United States,city,y
-FishermansWharf,Fisherman's Wharf,37.8096,-122.415,United States,attraction,y
-PowellCableCar,Powell-Hyde Cable Car,37.7954,-122.4111,United States,attraction,y
-GoldenGateOverlook,Golden Gate Overlook,37.8084,-122.472987,United States,attraction,y
-TwinPeaks,Twin Peaks,37.7544,-122.4477,United States,mountain,y
-LawrenceHall,The Lawrence Hall of Science,37.8765,-122.2502,United States,attraction,y
-TheBulb,The Bulb,37.8831,-122.3108,United States,coast,y
-Berkeley,Berkeley,37.8715,-122.273,United States,city,y
-SatherGate,Sather Gate,37.8723,-122.2578,United States,attraction,y
-Richmond,Richmond,49.1666,-123.133,Canada,city,y
-Vancouver,Vancouver,49.2827,-123.1207,Canada,city,y
-StanleyPark,Stanley Park,49.3017,-123.1417,Canada,coast,y
-AngelsFlight,Angels Flight Railway,34.0504,-118.2509,United States,attraction,y
-UrbanLight,Urban Light,34.0637,-118.359,United States,attraction,y
-Griffith,Griffith Observatory,34.1184,-118.3004,United States,attraction,y
-TheBoard,The Board,34.0314,-118.2363,United States,attraction,y
-Hollywood,Hollywood,34.0928,-118.3287,United States,town,y
-SantaMonica,Santa Monica,34.0195,-118.4912,United States,coast,y
-Lowell,Lowell Observatory,35.2049,-111.6585,United States,attraction,y
-Flagstaff,Flagstaff,35.1983,-111.6513,United States,city,y
-Snowbowl,Arizona Snowbowl,35.3308,-111.7102,United States,sb,y
-Petrified,Petrified Forest National Park,35.0653,-109.781,United States,attraction,y
-WalnutCanyon,Walnut Canyon National Monument,35.1851,-111.5117,United States,attraction,y
-LowerAntelope,Lower Antelope Canyon,36.9144,-111.3858,United States,attraction,y
-YakiPoint,Grand Canyon (Yaki Point),36.058552,-112.082924,United States,mountain,y
-OohAahPoint,Grand Canyon (Ooh Aah Point),36.061383,-112.086986,United States,mountain,y
-PipeGreekVista,Grand Canyon (Pipe Greek Vista),36.047963,-112.092831,United States,mountain,y
-HorseshoeBend,Horseshoe Bend,36.8795,-111.51,United States,attraction,y
-Fira,Fira,36.4232628,25.4282559,Greece,attraction,y
-Oia,Oia,36.4660187,25.372967,Greece,attraction,y
+filename,placename,lat,lng,country,category,been,flag
+Amsterdam,Amsterdam,52.370216,4.895168,Netherlands,city,y,&#127475&#127473
+Utrecht,Utrecht,52.090736,5.12142,Netherlands,city,y,&#127475&#127473
+Rotterdam,Rotterdam,51.924419,4.477733,Netherlands,city,y,&#127475&#127473
+Maastricht,Maastricht,50.85,5.6833,Netherlands,city,y,&#127475&#127473
+Frankfurt,Frankfurt,50.110924,8.682127,Germany,city,y,&#127465&#127466
+Cologne,Cologne,50.937531,6.960279,Germany,city,y,&#127465&#127466
+Darmstadt,Darmstadt,49.8851869,8.6736295,Germany,city,y,&#127465&#127466
+Dusseldorf,Dusseldorf,51.2217,6.77616,Germany,city,y,&#127465&#127466
+Hamburg,Hamburg,53.55,9.99361,Germany,city,y,&#127465&#127466
+Heidelberg,Heidelberg,49.407679,8.690788,Germany,city,y,&#127465&#127466
+Nuremberg,Nuremberg,49.45203,11.07675,Germany,city,y,&#127465&#127466
+Hannover,Hannover,52.375892,9.73201,Germany,city,y,&#127465&#127466
+Berlin,Berlin,52.516315,13.378079,Germany,city,y,&#127465&#127466
+London,London,51.5074,-0.1278,United Kingdom,city,y,&#127468&#127463
+York,York,53.958332,-1.080278,United Kingdom,city,y,&#127468&#127463
+Bath,Bath,51.380001,-2.35,United Kingdom,city,y,&#127468&#127463
+Brighton,Brighton,50.8288,-0.13915,United Kingdom,city,y,&#127468&#127463
+Zurich,Zurich,47.376888,8.541694,Switzerland,city,y,&#127464&#127469
+Luzern,Luzern,47.04554,8.30801,Switzerland,city,y,&#127464&#127469
+Bern,Bern,46.9482713,7.4514512,Switzerland,city,y,&#127464&#127469
+Basel,Basel,47.5581077,7.5878261,Switzerland,city,y,&#127464&#127469
+Tallinn,Tallinn,59.436755,24.74522,Estonia,city,y,&#127466&#127466
+Geneva,Geneva,46.204391,6.143158,Switzerland,city,y,&#127464&#127469
+Bratislava,Bratislava,48.148598,17.107748,Slovakia,city,y,&#127480&#127472
+Brugge,Brugge,51.20892,3.22424,Belgium,city,y,&#127463&#127466
+Brussel,Brussel,50.850346,4.351721,Belgium,city,y,&#127463&#127466
+Gent,Gent,51.0543422,3.7174243,Belgium,city,y,&#127463&#127466
+Budapest,Budapest,47.497913,19.040236,Hungary,city,y,&#127469&#127482
+Milan,Milan,45.464664,9.18854,Italy,city,y,&#127470&#127481
+Rome,Rome,41.902782,12.496366,Italy,city,y,&#127470&#127481
+Vatican,Vatican,41.904755,12.454628,Vatican,city,y,&#127483&#127462
+Venice,Venice,45.438759,12.327145,Italy,city,y,&#127470&#127481
+Prague,Prague,50.073658,14.41854,Czech,city,y,&#127464&#127487
+Vienna,Vienna,48.210033,16.363449,Austria,city,y,&#127462&#127481
+Innsbruck,Innsbruck,47.26815,11.39459,Austria,city,y,&#127462&#127481
+Copenhagen,Copenhagen,55.6755,12.57,Denmak,city,y,&#127465&#127472
+Helsinki,Helsinki,60.16952,24.93545,Finland,city,y,&#127467&#127470
+Stockholm,Stockholm,59.329323,18.068581,Sweden,city,y,&#127480&#127466
+Krakow,Krakow,50.06194,19.9384,Poland,city,y,&#127477&#127473
+Warsaw,Warsaw,52.22969,21.01223,Poland,city,y,&#127477&#127473
+Seville,Seville,37.389092,-5.984459,Spain,city,y,&#127466&#127480
+Cordoba,Cordoba,37.884991,-4.779383,Spain,city,y,&#127466&#127480
+Granada,Granada,37.177336,-3.598557,Spain,city,y,&#127466&#127480
+Malaga,Malaga,36.721261,-4.421266,Spain,city,y,&#127466&#127480
+Tokyo,Tokyo,35.6895,139.6917,Japan,city,y,&#127471&#127477
+Paris,Paris,48.864716,2.349014,France,city,y,&#127467&#127479
+Dublin,Dublin,53.345628,-6.262862,Ireland,city,y,&#127470&#127466
+Plovdiv,Plovdiv,42.151251,24.752209,Bulgaria,city,y,&#127463&#127468
+Sofia,Sofia,42.695873,23.332845,Bulgaria,city,y,&#127463&#127468
+Nijmegen,Nijmegen,51.845192,5.8664848,Netherlands,city,y,&#127475&#127473
+DenBosch,Den Bosch,51.690708,5.294517,Netherlands,city,y,&#127475&#127473
+Leiden,Leiden,52.15895,4.492396,Netherlands,city,y,&#127475&#127473
+Luxembourg,Luxembourg,49.608028,6.127495,Luxembourg,city,y,&#127473&#127482
+Bucharest,Bucharest,44.432475,26.100006,Romania,city,y,&#127479&#127476
+Bremen,Bremen,53.0762,8.8075,Germany,city,y,&#127465&#127466
+Stavanger,Stavanger,58.97048,5.730341,Norway,city,y,&#127475&#127476
+Freiburg,Freiburg im Breisgau,47.993658,7.848866,Germany,city,y,&#127465&#127466
+Stuttgart,Stuttgart,48.7884807,9.2326576,Germany,city,y,&#127465&#127466
+Ljubljana,Ljubljana,46.0528564,14.5033216,Slovenia,city,y,&#127480&#127470
+Zagreb,Zagreb,45.8158446,15.97722021,Croatia,city,y,&#127469&#127479
+Athens,Athens,37.9824782,23.7383071,Greece,city,y,&#127468&#127479
+Lisbon,Lisbonn,38.7149478,-9.1385192,Portugal,city,y,&#127477&#127481
+Porto,Porto,41.140371,-8.6098859,Portugal,city,y,&#127477&#127481
+Braga,Braga,41.5544243,-8.3771059,Portugal,city,y,&#127477&#127481
+Giethoorn,Giethoorn,52.7397,6.07742,Netherlands,town,y,&#127475&#127473
+AmsterdamBos,Het Amsterdam Bos,52.315428,4.831741,Netherlands,town,y,&#127475&#127473
+DeBiesbosch,Nationaal Park DeBiesbosch,51.750181,4.763034,Netherlands,town,y,&#127475&#127473
+Saltburn,Saltburn,54.581539,-0.97837,United Kingdom,town,y,&#127468&#127463
+Whitby,Whitby,54.4877,-0.615,United Kingdom,town,y,&#127468&#127463
+Windsor,Windsor,51.48425,-0.60444,United Kingdom,town,y,&#127468&#127463
+Darlington,Darlington,54.5236,-1.5449,United Kingdom,town,y,&#127468&#127463
+Southampton,Southampton,50.905,-1.4043,United Kingdom,town,y,&#127468&#127463
+Grindelwald,Grindelwald,46.624329,8.03403,Switzerland,town,y,&#127464&#127469
+Interlaken,Interlaken,46.686348,7.863205,Switzerland,town,y,&#127464&#127469
+Lauterbrunnen,Lauterbrunnen,46.593421,7.909125,Switzerland,town,y,&#127464&#127469
+KastrupSobad,Kastrup Sobad,55.64541,12.649408,Denmak,town,y,&#127465&#127472
+Frigiliana,Frigiliana,36.78747,-3.89441,Spain,town,y,&#127466&#127480
+Nerja,Nerja,36.750637,-3.876716,Spain,town,y,&#127466&#127480
+Ronda,Ronda,36.746178,-5.167944,Spain,town,y,&#127466&#127480
+Zakopane,Zakopane,49.29918,19.94615,Poland,town,y,&#127477&#127473
+Versailles,Versailles Palace,48.80478,2.120033,France,town,y,&#127467&#127479
+Banya,Banya,41.880218,23.529092,Bulgaria,town,y,&#127463&#127468
+Rhenen,Rhenen,51.959354,5.591441,Netherlands,town,y,&#127475&#127473
+Hoorn,Hoorn,52.633805,5.056184,Netherlands,town,y,&#127475&#127473
+Strasbourg,Strasbourg,48.581376,7.751182,France,town,y,&#127467&#127479
+Colmar,Colmar,48.076649,7.358264,France,town,y,&#127467&#127479
+Mulhouse,Mulhouse,47.746894,7.338718,France,town,y,&#127467&#127479
+Brasov,Brasov,45.642885,25.586471,Romania,town,y,&#127479&#127476
+Badenbaden,Baden-Baden,48.763769,8.24089,Germany,town,y,&#127465&#127466
+Hausach,Hausach,48.283004,8.167706,Germany,town,y,&#127465&#127466
+Schramberg,Schramberg,48.227185,8.384569,Germany,town,y,&#127465&#127466
+Lungern,Lungern,46.789612,8.158178,Switzerland,town,y,&#127464&#127469
+Zermatt,Zermatt,46.025509,7.756185,Switzerland,town,y,&#127464&#127469
+BledCastle,Bled Castle,46.3698575,14.0980708,Slovenia,town,y,&#127480&#127470
+Howth,Howth Cliff Walk,53.374974,-6.049288,Ireland,mountain,y,&#127470&#127466
+Killiney,Killiney Hill,53.265548,-6.111822,Ireland,mountain,y,&#127470&#127466
+MtFuju,Mt.Fuji,35.363075,138.73033,Japan,mountain,y,&#127471&#127477
+SevenSistersCliff,Seven Sisters Cliff,50.747954,0.190148,United Kingdom,mountain,y,&#127468&#127463
+KasprowyWierch,Kasprowy Wierch,49.23945,19.98878,Poland,mountain,y,&#127477&#127473
+Syue,Syue Mountain,24.383401,121.231754,Taiwan,mountain,y,&#127481&#127484
+Preikestolen,Preikestolen,58.986065,6.189782,Norway,mountain,y,&#127475&#127476
+Kjerag,Kjerag,59.041266,6.630289,Norway,mountain,y,&#127475&#127476
+FeldbergTurm,Feldberg Turm,47.864528,8.02194,Germany,mountain,y,&#127465&#127466
+RuineHochburg,Ruine Hochburg ,48.117079,7.900549,Germany,mountain,y,&#127465&#127466
+TribergWaterfall,Triberg Waterfall,48.1268441,8.2289293,Germany,mountain,y,&#127465&#127466
+First,First,46.660531,8.053066,Switzerland,mountain,y,&#127464&#127469
+Jungfraujoch,Jungfraujoch,46.547518,7.985448,Switzerland,mountain,y,&#127464&#127469
+Riffelsee,Riffelsee,45.9832999,7.761384,Switzerland,mountain,y,&#127464&#127469
+Triberg,Triberg,48.128641,8.230478,Germany,town,y,&#127465&#127466
+DurdleDoor,Durdle Door,50.621103,-2.276568,United Kingdom,coast,y,&#127468&#127463
+JurassicCoast,Jurassic Coast,50.622026,-2.274362,United Kingdom,coast,y,&#127468&#127463
+Bluecave,Blue Cave,26.48587,127.84825,Japan,coast,y,&#127471&#127477
+NordTexel,Lighthouse Texel,53.182108,4.853049,Netherlands,coast,y,&#127475&#127473
+Bournemouth,Bournemouth,50.7184,-1.8784,United Kingdom,coast,y,&#127468&#127463
+Mummelsee,Mummelsee,48.597568,8.200805,Germany,coast,y,&#127465&#127466
+Titisee,Titisee,47.8987703,8.1524791,Germany,coast,y,&#127465&#127466
+Brienz,Brienz,46.753821,8.037051,Switzerland,coast,y,&#127464&#127469
+Thun,Thun,46.6667457,7.828315,Switzerland,coast,y,&#127464&#127469
+Bled,Bled,46.364627,14.091587,Slovenia,coast,y,&#127480&#127470
+PhonixPark,Phonix Park,53.355899,-6.330144,Ireland,attraction,y,&#127470&#127466
+Stonehenge,Stonehenge,51.178884,-1.826214,United Kingdom,attraction,y,&#127468&#127463
+KsIto,Ito Onsen,34.971847,139.097305,Japan,attraction,y,&#127471&#127477
+Lisse,Lisse,52.2667,4.55,Netherlands,attraction,y,&#127475&#127473
+MontSaint-Michel,Mont Saint-Michel,48.636004,-1.511085,France,attraction,y,&#127467&#127479
+RilaMonastery,Rila Monastery,42.13346,23.340203,Bulgaria,attraction,y,&#127463&#127468
+Kinderdijk,Kinderdijk,51.887462,4.638011,Netherlands,attraction,y,&#127475&#127473
+Burano,Burano,45.486734,12.417873,Italy,attraction,y,&#127470&#127481
+PelesCastle,Peles Castle,45.359696,25.542641,Romania,attraction,y,&#127479&#127476
+BranCastle,Bran Castle,45.514804,25.366981,Romania,attraction,y,&#127479&#127476
+BismarckDenkmal,"Bismarck Denkmal, Feldberg",47.866128,8.025316,Germany,attraction,y,&#127465&#127466
+Blackforestline,Blackforestline Hangebrucke,47.844005,7.93616,Germany,attraction,y,&#127465&#127466
+BurgruineStaufen,"Burgruine Staufen, Burgweg",47.886551,7.731729,Germany,attraction,y,&#127465&#127466
+CuckooClock,World's Largest Cuckoo Clock,48.14772,8.240987,Germany,attraction,y,&#127465&#127466
+Auschwitz-Birkenau,Auschwitz-Birkenau,50.03353,19.209361,Poland,other,y,&#127477&#127473
+BT,Biaka Tatrzaska,49.3684,20.06105,Poland,ski,y,&#127477&#127473
+Patscherkofel,Patscherkofel,47.18876,11.44679,Austria,ski,y,&#127462&#127481
+AxamerLizum,Axamer Lizum,47.20364,11.48804,Austria,ski,y,&#127462&#127481
+Nordkette,Nordkette,47.28664,11.40491,Austria,ski,y,&#127462&#127481
+GrandeRochette,Grande Rochette,45.491606,6.684505,France,sb,y,&#127467&#127479
+LaPlagne1800,La Plagne 1800,45.512423,6.677257,France,sb,y,&#127467&#127479
+Bansko,Bansko,41.82739,23.482773,Bulgaria,sb,y,&#127463&#127468
+Todorka,Todorka,41.757901,23.435364,Bulgaria,sb,y,&#127463&#127468
+Plato,Plato Ski Slope,41.76054,23.446597,Bulgaria,sb,y,&#127463&#127468
+Stanford,Stanford,37.4275,-122.1697,United States,city,y,&#127482&#127480
+FishermansWharf,Fisherman's Wharf,37.8096,-122.415,United States,attraction,y,&#127482&#127480
+PowellCableCar,Powell-Hyde Cable Car,37.7954,-122.4111,United States,attraction,y,&#127482&#127480
+GoldenGateOverlook,Golden Gate Overlook,37.8084,-122.472987,United States,attraction,y,&#127482&#127480
+TwinPeaks,Twin Peaks,37.7544,-122.4477,United States,mountain,y,&#127482&#127480
+LawrenceHall,The Lawrence Hall of Science,37.8765,-122.2502,United States,attraction,y,&#127482&#127480
+TheBulb,The Bulb,37.8831,-122.3108,United States,coast,y,&#127482&#127480
+Berkeley,Berkeley,37.8715,-122.273,United States,city,y,&#127482&#127480
+SatherGate,Sather Gate,37.8723,-122.2578,United States,attraction,y,&#127482&#127480
+Richmond,Richmond,49.1666,-123.133,Canada,city,y,&#127464&#127462
+Vancouver,Vancouver,49.2827,-123.1207,Canada,city,y,&#127464&#127462
+StanleyPark,Stanley Park,49.3017,-123.1417,Canada,coast,y,&#127464&#127462
+AngelsFlight,Angels Flight Railway,34.0504,-118.2509,United States,attraction,y,&#127482&#127480
+UrbanLight,Urban Light,34.0637,-118.359,United States,attraction,y,&#127482&#127480
+Griffith,Griffith Observatory,34.1184,-118.3004,United States,attraction,y,&#127482&#127480
+TheBoard,The Board,34.0314,-118.2363,United States,attraction,y,&#127482&#127480
+Hollywood,Hollywood,34.0928,-118.3287,United States,town,y,&#127482&#127480
+SantaMonica,Santa Monica,34.0195,-118.4912,United States,coast,y,&#127482&#127480
+Lowell,Lowell Observatory,35.2049,-111.6585,United States,attraction,y,&#127482&#127480
+Flagstaff,Flagstaff,35.1983,-111.6513,United States,city,y,&#127482&#127480
+Snowbowl,Arizona Snowbowl,35.3308,-111.7102,United States,sb,y,&#127482&#127480
+Petrified,Petrified Forest National Park,35.0653,-109.781,United States,attraction,y,&#127482&#127480
+WalnutCanyon,Walnut Canyon National Monument,35.1851,-111.5117,United States,attraction,y,&#127482&#127480
+LowerAntelope,Lower Antelope Canyon,36.9144,-111.3858,United States,attraction,y,&#127482&#127480
+YakiPoint,Grand Canyon (Yaki Point),36.058552,-112.082924,United States,mountain,y,&#127482&#127480
+OohAahPoint,Grand Canyon (Ooh Aah Point),36.061383,-112.086986,United States,mountain,y,&#127482&#127480
+PipeGreekVista,Grand Canyon (Pipe Greek Vista),36.047963,-112.092831,United States,mountain,y,&#127482&#127480
+HorseshoeBend,Horseshoe Bend,36.8795,-111.51,United States,attraction,y,&#127482&#127480
+Fira,Fira,36.4232628,25.4282559,Greece,attraction,y,&#127468&#127479
+Oia,Oia,36.4660187,25.372967,Greece,attraction,y,&#127468&#127479

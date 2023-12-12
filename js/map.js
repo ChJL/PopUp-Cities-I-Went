@@ -63,7 +63,7 @@ function showMarker(items) {
     const popupContent = document.createElement("div")
     if (item.been === "y"){
 
-      popupContent.innerHTML = "<h2>" + item.placename  + "</h2>" + "<h3>"+ item.country +"</h3>"
+      popupContent.innerHTML = "<h2>" + item.placename  + "</h2>" + "<h3>"+ item.flag + " " + item.country +"</h3>"
                                 +"<img src='" + "images/"+item.category+"/"+ item.filename + ".jpg "+ "'>"
       
       Icon = window[item.category+'Icon'];
