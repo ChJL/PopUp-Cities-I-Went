@@ -55,6 +55,17 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1IjoiNWNoaWVoIiwiYSI6ImNsZDV6aW83YTA0Z2gzb2pvN2NlaGgwa2UifQ.1K0nOtmpdfmdNHEO2QVtGQ'
 }).addTo(mymap);
 
+L.control
+	.fullscreen({
+		position: 'topright', // change the position of the button can be topleft, topright, bottomright or bottomleft, default topleft
+		title: 'Show me the fullscreen !', // change the title of the button, default Full Screen
+		titleCancel: 'Exit fullscreen mode', // change the title of the button when fullscreen is on, default Exit Full Screen
+		content: null, // change the content of the button, can be HTML, default null
+		forceSeparateButton: true, // force separate button to detach from zoom buttons, default false
+		fullscreenElement: false // Dom element to render in full screen, false by default, fallback to map._container
+	})
+	.addTo(mymap);
+
 function showMarker(items) {
   //Data is usable here
   console.log(items);
