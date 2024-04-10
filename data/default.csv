@@ -26,6 +26,7 @@ Bratislava,Bratislava,48.148598,17.107748,Slovakia,city,y,&#127480&#127472
 Brugge,Brugge,51.20892,3.22424,Belgium,city,y,&#127463&#127466
 Brussel,Brussel,50.850346,4.351721,Belgium,city,y,&#127463&#127466
 Gent,Gent,51.0543422,3.7174243,Belgium,city,y,&#127463&#127466
+Leuven,Leuven,50.878784,4.701138,Belgium,city,y,&#127463&#127466
 Budapest,Budapest,47.497913,19.040236,Hungary,city,y,&#127469&#127482
 Milan,Milan,45.464664,9.18854,Italy,city,y,&#127470&#127481
 Rome,Rome,41.902782,12.496366,Italy,city,y,&#127470&#127481
@@ -63,6 +64,8 @@ Athens,Athens,37.9824782,23.7383071,Greece,city,y,&#127468&#127479
 Lisbon,Lisbonn,38.7149478,-9.1385192,Portugal,city,y,&#127477&#127481
 Porto,Porto,41.140371,-8.6098859,Portugal,city,y,&#127477&#127481
 Braga,Braga,41.5544243,-8.3771059,Portugal,city,y,&#127477&#127481
+Riga,Riga,56.947397,24.106648,Latvia,city,y,&#127473&#127483
+Vilnius,Vilnius,54.682854,25.289151,Lithuania,city,y,&#127473&#127481
 Giethoorn,Giethoorn,52.7397,6.07742,Netherlands,town,y,&#127475&#127473
 AmsterdamBos,Het Amsterdam Bos,52.315428,4.831741,Netherlands,town,y,&#127475&#127473
 DeBiesbosch,Nationaal Park DeBiesbosch,51.750181,4.763034,Netherlands,town,y,&#127475&#127473
@@ -71,6 +74,7 @@ Whitby,Whitby,54.4877,-0.615,United Kingdom,town,y,&#127468&#127463
 Windsor,Windsor,51.48425,-0.60444,United Kingdom,town,y,&#127468&#127463
 Darlington,Darlington,54.5236,-1.5449,United Kingdom,town,y,&#127468&#127463
 Southampton,Southampton,50.905,-1.4043,United Kingdom,town,y,&#127468&#127463
+Birmingham,Birmingham,53.4776723,-1.909064,United Kingdom,city,y,&#127468&#127463
 Grindelwald,Grindelwald,46.624329,8.03403,Switzerland,town,y,&#127464&#127469
 Interlaken,Interlaken,46.686348,7.863205,Switzerland,town,y,&#127464&#127469
 Lauterbrunnen,Lauterbrunnen,46.593421,7.909125,Switzerland,town,y,&#127464&#127469
@@ -93,6 +97,7 @@ Schramberg,Schramberg,48.227185,8.384569,Germany,town,y,&#127465&#127466
 Lungern,Lungern,46.789612,8.158178,Switzerland,town,y,&#127464&#127469
 Zermatt,Zermatt,46.025509,7.756185,Switzerland,town,y,&#127464&#127469
 BledCastle,Bled Castle,46.3698575,14.0980708,Slovenia,town,y,&#127480&#127470
+Trakai,Trakai,54.652139,24.933602,Lithuania,town,y,&#127473&#127481
 Howth,Howth Cliff Walk,53.374974,-6.049288,Ireland,mountain,y,&#127470&#127466
 Killiney,Killiney Hill,53.265548,-6.111822,Ireland,mountain,y,&#127470&#127466
 MtFuju,Mt.Fuji,35.363075,138.73033,Japan,mountain,y,&#127471&#127477
@@ -173,3 +178,5 @@ PipeGreekVista,Grand Canyon (Pipe Greek Vista),36.047963,-112.092831,United Stat
 HorseshoeBend,Horseshoe Bend,36.8795,-111.51,United States,attraction,y,&#127482&#127480
 Fira,Fira,36.4232628,25.4282559,Greece,attraction,y,&#127468&#127479
 Oia,Oia,36.4660187,25.372967,Greece,attraction,y,&#127468&#127479
+Foshan,Foshan,22.837999,113.250052,China,city,y,&#127464&#127475
+Changsha,Changsha,28.181069,112.937627,China,city,y,&#127464&#127475
