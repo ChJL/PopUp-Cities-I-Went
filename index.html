@@ -1,9 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
 	<base target="_top">
 	<meta charset="utf-8">
-	<title>PopUp Cities I Went</title>
+	<title>PopUp Cities I Went - 我的旅行地圖 | My Travel Map</title>
+	<meta name="description" content="一個互動式的地圖，展示我去過的城市和旅行足跡。探索我的旅行故事和經歷。An interactive map showcasing the cities I've visited and my travel footprints. Explore my travel stories and experiences.">
+	<meta name="keywords" content="旅行地圖, 城市探索, 旅行足跡, 互動地圖, 旅行記錄, travel map, city exploration, travel footprint, interactive map, travel journal">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Chih-Chieh Lin">
+	
+	<!-- 中文 Open Graph -->
+	<meta property="og:title" content="PopUp Cities I Went - 我的旅行地圖">
+	<meta property="og:description" content="一個互動式的地圖，展示我去過的城市和旅行足跡。">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://chihchiehlin.com/popup-cities-i-went/">
+	<meta property="og:locale" content="zh_TW">
+	
+	<!-- English Open Graph -->
+	<meta property="og:title:en" content="PopUp Cities I Went - My Travel Map">
+	<meta property="og:description:en" content="An interactive map showcasing the cities I've visited and my travel footprints.">
+	<meta property="og:locale:en" content="en_US">
+	
+	<link rel="canonical" href="https://chihchiehlin.com/popup-cities-i-went/">
+	<link rel="alternate" hreflang="zh-TW" href="https://chihchiehlin.com/popup-cities-i-went/" />
+	<link rel="alternate" hreflang="en" href="https://chihchiehlin.com/popup-cities-i-went/en/" />
 	<link rel="shortcut icon" type="image/x-icon" href="https://chihchiehlin.com/images/fea.ico" />
   	<link rel="stylesheet" href="css/map.css">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@latest/dist/leaflet.css" />
@@ -22,6 +42,32 @@
 
 <body>
 	<div id="mapid"></div>
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "WebApplication",
+		"name": {
+			"@language": "zh-TW",
+			"@value": "PopUp Cities I Went - 我的旅行地圖"
+		},
+		"name": {
+			"@language": "en",
+			"@value": "PopUp Cities I Went - My Travel Map"
+		},
+		"description": {
+			"@language": "zh-TW",
+			"@value": "一個互動式的地圖，展示我去過的城市和旅行足跡"
+		},
+		"description": {
+			"@language": "en",
+			"@value": "An interactive map showcasing the cities I've visited and my travel footprints"
+		},
+		"url": "https://chihchiehlin.com/popup-cities-i-went/",
+		"applicationCategory": "TravelApplication",
+		"operatingSystem": "Web",
+		"inLanguage": ["zh-TW", "en"]
+	}
+	</script>
 	<script src="js/map.js" type="text/javascript"></script>
 </body>
 
