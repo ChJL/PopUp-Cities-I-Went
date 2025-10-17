@@ -6,7 +6,7 @@ To better visualize which city or attraction I have ever been, I create this sim
 ## ScreenShot
 <p align="center">
     <img src="images/docs/screenshot.jpg" id="img-demo" width="850" height="500"/>
-    <span style>Demo Look</span>
+    <span style>Demo Look.</span>
 </p>
 
 Directory Structure Overview
