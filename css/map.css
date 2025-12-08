@@ -141,3 +141,53 @@
         padding: 10px;
     }
 }
+
+/* 燈箱背景 (預設隱藏) */
+.image-modal {
+  display: none; /* 預設不顯示 */
+  position: fixed; 
+  z-index: 9999; /* 必須比 Leaflet 的地圖層級 (通常是 1000) 還高 */
+  padding-top: 50px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.9); /* 黑色半透明背景 */
+}
+
+/* 燈箱內的圖片 */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 900px; /* 電腦版最大寬度 */
+  max-height: 80vh; /* 高度不超過螢幕 80% */
+  object-fit: contain;
+  animation-name: zoom;
+  animation-duration: 0.3s;
+}
+
+/* 簡單的放大動畫 */
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* 關閉按鈕 (X) */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* 手機版調整：圖片可以寬一點 */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}

@@ -90,8 +90,11 @@ function showMarker(items) {
     const popupContent = document.createElement("div")
     if (item.been === "y"){
 
-      popupContent.innerHTML = "<h2>" + item.placename  + "</h2>" + "<h3>"+ item.flag + " " + item.country +"</h3>"
-                                +"<img src='" + "images/"+item.category+"/"+ item.filename + ".jpg "+ "'>"
+      popupContent.innerHTML = "<h2>" + item.placename + "</h2>" + 
+                               "<h3>" + item.flag + " " + item.country + "</h3>" +
+                               "<img src='images/" + item.category + "/" + item.filename + ".jpg' " +
+                               "style='cursor: pointer;' " + 
+                               "onclick='openModal(this)'>";
       
       // 偵測是否為手機
       var isMobile = window.innerWidth < 600;
@@ -192,3 +195,20 @@ legend.onAdd = function (map) {
     return div;
 };
 legend.addTo(mymap);
+
+// 開啟燈箱：把被點擊圖片的 src 傳給燈箱裡的圖片
+function openModal(element) {
+  var modal = document.getElementById("imageModal");
+  var modalImg = document.getElementById("img01");
+  
+  modal.style.display = "flex"; // 改用 flex 讓圖片垂直置中
+  modal.style.alignItems = "center";
+  modal.style.justifyContent = "center";
+  
+  modalImg.src = element.src; // 把小圖的路徑給大圖
+}
+
+// 關閉燈箱
+function closeModal() {
+  document.getElementById("imageModal").style.display = "none";
+}
