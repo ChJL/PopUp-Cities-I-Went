@@ -144,16 +144,17 @@
 
 /* 燈箱背景 (預設隱藏) */
 .image-modal {
-  display: none; /* 預設不顯示 */
-  position: fixed; 
-  z-index: 9999; /* 必須比 Leaflet 的地圖層級 (通常是 1000) 還高 */
-  padding-top: 50px; 
-  left: 0;
-  top: 0;
-  width: 100%; 
-  height: 100%; 
-  overflow: auto; 
-  background-color: rgba(0,0,0,0.9); /* 黑色半透明背景 */
+    display: none;
+    position: absolute; /* 注意：在 Leaflet 容器內改用 absolute 會比較穩定 */
+    z-index: 10000;     /* Leaflet 的控制項通常是 1000，我們設 10000 確保在最上面 */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    
+    /* 讓內容可以被點擊，但不會穿透到地圖 */
+    pointer-events: auto; 
 }
 
 /* 燈箱內的圖片 */

@@ -212,3 +212,9 @@ function openModal(element) {
 function closeModal() {
   document.getElementById("imageModal").style.display = "none";
 }
+
+var modal = document.getElementById('imageModal');
+
+// 使用 Leaflet 的 DomEvent 來禁止點擊、滾動傳遞給地圖
+L.DomEvent.disableClickPropagation(modal);
+L.DomEvent.disableScrollPropagation(modal);
