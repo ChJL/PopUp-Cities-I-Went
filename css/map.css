@@ -29,6 +29,31 @@
   margin-right: 8px;
   opacity: 1;
 }
+/* Legend 外框設定 */
+.info.legend {
+    background: white;
+    padding: 6px 10px;    /* 縮小內距 */
+    border-radius: 5px;   /* 圓角 */
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    font-size: 12px;      /* 縮小字體 */
+    line-height: 1.5;
+    max-width: 150px;     /* 限制最大寬度 */
+}
+
+/* 每一行的設定 */
+.legend-item {
+    display: flex;        /* 讓圖片跟文字並排對齊 */
+    align-items: center;  /* 垂直置中 */
+    margin-bottom: 2px;   /* 每一行之間的距離 */
+}
+
+/* 圖片設定 */
+.legend-item img {
+    width: 18px;          /* 強制縮小圖片寬度 */
+    height: 18px;         /* 強制縮小圖片高度 */
+    margin-right: 8px;    /* 圖片跟文字的距離 */
+    object-fit: contain;  /* 保持圖片比例 */
+}
 .searchbar {
   padding: 8px 8px;
   font: 14px/16px Arial, Helvetica, sans-serif;
@@ -48,4 +73,47 @@
   height: 2em;
   width: 13em;
   font-size: medium;
+}
+
+/* 外層容器 */
+.search-container {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* 輸入框本體 */
+.custom-input {
+    width: 30px;            /* 平常只有 30px 寬 (正方形) */
+    height: 30px;
+    padding-left: 30px;     /* 預留空間給放大鏡圖示 */
+    border: 2px solid #fff; /* 白框 */
+    border-radius: 15px;    /* 變成膠囊/圓形 */
+    background: white url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png') no-repeat 8px center; /* 背景放放大鏡圖示 */
+    background-size: 14px;  /* 圖示大小 */
+    box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+    font-size: 12px;
+    outline: none;
+    transition: width 0.4s ease-in-out; /* 關鍵：設定寬度變化的動畫時間 */
+    cursor: pointer;
+}
+
+/* 當輸入框 1.被點擊(focus) 或 2.滑鼠懸停(hover) 時 */
+.custom-input:focus,
+.custom-input:hover {
+    width: 200px;           /* 伸長到 200px */
+    padding-left: 30px;     /* 保持文字不壓到圖示 */
+    cursor: text;           /* 游標變回輸入模式 */
+    border-radius: 4px;     /* 變回圓角長方形 (可選，看你喜好) */
+}
+
+/* 為了美觀，placeholder 在縮起來的時候不要顯示 */
+/* .custom-input::placeholder {
+    color: transparent;
+    transition: color 0.3s;
+} */
+
+/* 伸長時才顯示 placeholder */
+.custom-input:focus::placeholder,
+.custom-input:hover::placeholder {
+    color: #999;
 }

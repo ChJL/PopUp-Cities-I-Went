@@ -1,3 +1,15 @@
+// 1. 建立一個 Icon 對照表 (Dictionary)，比較安全且易於管理
+const iconMap = {
+    'city': cityIcon,
+    'town': townIcon,
+    'mountain': mountainIcon,
+    'coast': coastIcon,
+    'attraction': attractionIcon,
+    'ski': skiIcon,
+    'snowboard': sbIcon,
+    // 如果找不到對應的，可以用這個 default
+    'default': otherIcon 
+};
 // var map = L.map('mapid').setView([51.505, -0.09], 13);
 var cityIcon = L.icon({
 
@@ -66,10 +78,14 @@ L.control
 	})
 	.addTo(mymap);
 
+  // 用一個全域變數存資料，避免搜尋時重複讀取 CSV
+var allMarkersData = [];
+
 function showMarker(items) {
   //Data is usable here
-  console.log(items);
-  var Icon;
+  console.log("CSV Data loaded:", items); // Debug 用
+  allMarkersData = items; // 將資料存入全域變數供搜尋使用  var Icon;
+  
   items.forEach((item) => {
     const popupContent = document.createElement("div")
     if (item.been === "y"){
@@ -90,6 +106,7 @@ function showMarker(items) {
   })
 }
 
+
 function parseData(url, callBack) {
   var csvData;
     $.get(url, function(data) {
@@ -102,40 +119,63 @@ parseData("data/default.csv", showMarker);
 // Add search bar
 var searchBar = L.control({position: 'topleft'});
 searchBar.onAdd = function (map) {
-  var div = L.DomUtil.create('div', 'searchbar');
-  div.innerHTML += '<input id="searchbar" onkeyup="search_item()" type="text" name="search" placeholder="Search City ex: Amsterdam ">'
+  // var div = L.DomUtil.create('div', 'searchbar');
+  // div.innerHTML += '<input id="searchbar" onkeyup="search_item()" type="text" name="search" placeholder="Search City ex: Amsterdam ">'
+  // 建立外層 div
+    var div = L.DomUtil.create('div', 'search-container');
+    
+    // 加入 input，這裡我加了 class="custom-input" 方便 CSS 控制
+    div.innerHTML += '<input id="searchbar" class="custom-input" onkeyup="search_item()" type="text" name="search" placeholder="Search City...">';
+    
+    // 防止點擊輸入框時觸發地圖拖曳 (這很重要，不然打字時地圖會亂動)
+    L.DomEvent.disableClickPropagation(div);
   return div;
 };
 searchBar.addTo(mymap)
 
 function search_item() {
-  let input = document.getElementById('searchbar').value
-  console.log(input);
-  $.get("data/default.csv", function(data) {
-  var itemdata = $.csv.toObjects(data);
-  itemdata.forEach((item) => {
-      if(item.placename === input){
-        window['marker' + item.filename].openPopup();
-      }
-    })
-  });
+    let input = document.getElementById('searchbar').value;
+    console.log("Searching for:", input);
+    
+    // 5. 改用記憶體中的資料搜尋，不要重新下載 CSV
+    if (allMarkersData.length > 0) {
+        allMarkersData.forEach((item) => {
+            // 建議加上轉小寫比較 (Case insensitive search)
+            if (item.placename.toLowerCase() === input.toLowerCase()) {
+                let markerVar = window['marker' + item.filename];
+                if (markerVar) {
+                    markerVar.openPopup();
+                    // 選擇性功能：搜尋到時地圖自動飛過去
+                    mymap.setView(markerVar.getLatLng(), 6); 
+                }
+            }
+        });
+    }
 }
 
-// Add legends
-var legend = L.control({position: 'topleft'});
+var legend = L.control({position: 'topright'}); 
 legend.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend');
-    div.innerHTML +=  "<p>"+' '+"</p>"
-    div.innerHTML +=  '<img src="images/marker/solid-blue.png">' + "<h4>"+'City'+"</h4>"
-    div.innerHTML +=  '<img src="images/marker/orange-pin.png">'  + "<h4>"+'Town'+"</h4>"
-    div.innerHTML +=  '<img src="images/marker/mountains-64.png">'  + "<h4>"+'Mountain'+"</h4>"
-    div.innerHTML +=  '<img src="images/marker/sea.png">'  + "<h4>"+'Coast'+"</h4>"
-    div.innerHTML +=  '<img src="images/marker/heartin.png">'  + "<h4>"+'Attraction'+"</h4>"
-    div.innerHTML +=  '<img src="images/marker/ski-pin-blue.png">'  + "<h4>"+'Ski'+"</h4>"
-    div.innerHTML +=  '<img src="images/marker/snowboarder.png">'  + "<h4>"+'Snowboard'+"</h4>"
     
+    var grades = [
+        { name: 'City', icon: 'solid-blue.png' },
+        { name: 'Town', icon: 'orange-pin.png' },
+        { name: 'Mountain', icon: 'mountains-64.png' },
+        { name: 'Coast', icon: 'sea.png' },
+        { name: 'Attraction', icon: 'heartin.png' },
+        { name: 'Ski', icon: 'ski-pin-blue.png' },
+        { name: 'Snowboard', icon: 'snowboarder.png' }
+    ];
+
+    grades.forEach(function(item){
+        div.innerHTML += `
+            <div class="legend-item">
+                <img src="images/marker/${item.icon}">
+                <span>${item.name}</span>
+            </div>
+        `;
+    });
 
     return div;
 };
 legend.addTo(mymap);
-
