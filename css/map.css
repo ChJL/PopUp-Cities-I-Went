@@ -117,3 +117,27 @@
 .custom-input:hover::placeholder {
     color: #999;
 }
+
+/* === 電腦版 (預設) === */
+.leaflet-popup-content img {
+    width: 100%;             /* 寬度撐滿 Popup 容器 */
+    height: auto;            /* 高度自動 */
+    max-height: 450px;       /* 電腦版最大允許高度 (原本只有 200px 太小了) */
+    object-fit: cover;       /* 保持比例 */
+    border-radius: 4px;
+    margin-top: 5px;
+    display: block;          /* 避免圖片下方多出空白 */
+}
+
+/* === 手機版 (螢幕小於 600px 時覆寫) === */
+@media (max-width: 600px) {
+    .leaflet-popup-content img {
+        max-height: 200px;   /* 手機上限制高度，避免擋住地圖 */
+    }
+    
+    /* 讓手機上的 Popup 容器瘦一點，避免超出螢幕 */
+    .leaflet-popup-content-wrapper {
+        max-width: 280px !important;
+        padding: 10px;
+    }
+}

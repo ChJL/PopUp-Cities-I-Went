@@ -93,10 +93,23 @@ function showMarker(items) {
       popupContent.innerHTML = "<h2>" + item.placename  + "</h2>" + "<h3>"+ item.flag + " " + item.country +"</h3>"
                                 +"<img src='" + "images/"+item.category+"/"+ item.filename + ".jpg "+ "'>"
       
+      // 偵測是否為手機
+      var isMobile = window.innerWidth < 600;
+
+      var popupOptions = {
+        // 電腦版給它寬一點 (例如 400 或 500)，手機維持 260
+        maxWidth: isMobile ? 260 : 500, 
+    
+        // 最小寬度也稍微調整
+        minWidth: isMobile ? 200 : 350,
+    
+        autoPanPadding: [10, 10]
+      };
+      
       Icon = window[item.category+'Icon'];
       
       window['marker'+ item.filename] = L.marker([item.lat, item.lng],{icon: Icon}).bindPopup(popupContent,
-                                { maxWidth: "auto" }).addTo(mymap);
+                                popupOptions).addTo(mymap);
               
           }
     else {
@@ -153,7 +166,7 @@ function search_item() {
     }
 }
 
-var legend = L.control({position: 'topright'}); 
+var legend = L.control({position: 'bottomleft'}); 
 legend.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend');
     
