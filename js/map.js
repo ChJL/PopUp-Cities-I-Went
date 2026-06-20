@@ -59,12 +59,17 @@ var mapOptions = {
   }
 var mymap = L.map('mapid', mapOptions);
 
+
+// 嘗試使用本地定義的 Token，如果沒定義 (在 GitHub 上)，則預設為空字串
+const token = (typeof DEV_MAPBOX_TOKEN !== 'undefined') ? DEV_MAPBOX_TOKEN : 'pk.eyJ1IjoiNWNoaWVoIiwiYSI6ImNtcW0xYW1neDE3Z2QycnF3NHRqb2ViMXAifQ.L6yGTtm7Mqy6bB2ZUztIUg';
+
+
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     id: 'mapbox/streets-v12',
     tileSize: 512,
     zoomOffset: -1,
-    accessToken: 'pk.eyJ1IjoiNWNoaWVoIiwiYSI6ImNtcW0xYW1neDE3Z2QycnF3NHRqb2ViMXAifQ.L6yGTtm7Mqy6bB2ZUztIUg'
+    accessToken: token
 }).addTo(mymap);
 
 L.control
