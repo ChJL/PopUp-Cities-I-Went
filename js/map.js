@@ -54,7 +54,8 @@ var sbIcon = L.icon({
 
 var mapOptions = {
     center: [35, 1],
-    zoom: 3.2
+    zoom: 3.2,
+    worldCopyJump: true // enable to jump to the other "copy" of the world when navigating horizontally, default false
   }
 var mymap = L.map('mapid', mapOptions);
 
@@ -91,6 +92,13 @@ function showMarker(items) {
   allMarkersData = items; // 將資料存入全域變數供搜尋使用  var Icon;
   
   items.forEach((item) => {
+    // 轉換經緯度為數字
+    const lat = parseFloat(item.lat);
+    const lng = parseFloat(item.lng);
+    
+    // 定義要繪製的經度偏移量 (0 代表本身，-360 與 +360 為分身)
+    const lngOffsets = [-360, 360];
+    
     const popupContent = document.createElement("div")
     if (item.been === "y"){
 
@@ -117,7 +125,13 @@ function showMarker(items) {
       
       window['marker'+ item.filename] = L.marker([item.lat, item.lng],{icon: Icon}).bindPopup(popupContent,
                                 popupOptions).addTo(mymap);
+      lngOffsets.forEach(offset => {
+      const newLng = lng + offset;
+      window['marker'+ item.filename+ newLng] = L.marker([item.lat, newLng],{icon: Icon}).bindPopup(popupContent,
+                                popupOptions).addTo(mymap);                          
               
+    });
+
           }
     else {
           console.log("======== test =======")
@@ -125,6 +139,7 @@ function showMarker(items) {
     
   })
 }
+
 
 
 function parseData(url, callBack) {
