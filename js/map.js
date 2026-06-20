@@ -64,7 +64,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     id: 'mapbox/streets-v12',
     tileSize: 512,
     zoomOffset: -1,
-    accessToken: 'pk.eyJ1IjoiNWNoaWVoIiwiYSI6ImNtaXhsZ2hxcDA1OTEzanNra3VhNDk5d2QifQ.nRpXLaHmqK5Rdsmvygqhew'
+    accessToken: 'pk.eyJ1IjoiNWNoaWVoIiwiYSI6ImNtcW0xYW1neDE3Z2QycnF3NHRqb2ViMXAifQ.L6yGTtm7Mqy6bB2ZUztIUg'
 }).addTo(mymap);
 
 L.control
