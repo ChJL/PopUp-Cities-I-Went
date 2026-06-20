@@ -13,14 +13,14 @@ const iconMap = {
 // var map = L.map('mapid').setView([51.505, -0.09], 13);
 var cityIcon = L.icon({
 
-	iconUrl: 'images/marker/solid-blue.png',
+	iconUrl: 'images/marker/solid-blue-compress.png',
 	shadowUrl: 'leaf-shadow.png',
-	iconSize:     [35, 35], // size of the icon
+	iconSize:     [30, 30], // size of the icon
 });
 
 var townIcon = L.icon({
 	iconUrl: 'images/marker/orange-pin.png',
-	iconSize:     [35, 35], // size of the icon
+	iconSize:     [30, 30], // size of the icon
 });
 
 var mountainIcon = L.icon({
@@ -174,7 +174,7 @@ legend.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend');
     
     var grades = [
-        { name: 'City', icon: 'solid-blue.png' },
+        { name: 'City', icon: 'blue-map-pin.png' },
         { name: 'Town', icon: 'orange-pin.png' },
         { name: 'Mountain', icon: 'mountains-64.png' },
         { name: 'Coast', icon: 'sea.png' },
