@@ -14,7 +14,6 @@ const iconMap = {
 var cityIcon = L.icon({
 
 	iconUrl: 'images/marker/solid-blue-compress.png',
-	shadowUrl: 'leaf-shadow.png',
 	iconSize:     [30, 30], // size of the icon
 });
 
